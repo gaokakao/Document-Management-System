@@ -7,3 +7,7 @@ header('Expires: -1');
 header('Last-Modified: ' . gmdate('r'));
 
 ?>
+
+<link rel="icon" 
+      type="image/png" 
+      href="/favicon.png">

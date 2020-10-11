@@ -27,10 +27,10 @@ class Database
 	*
 	* @param string $mysql MySQL serverio prisijungimo duomenys
 	*/
-	function Database($mysql)
+	function Database()
 	{
 
-		$this->link = new mysqli('localhost','sutartys','geras','sutartys');
+		$this->link = new mysqli('localhost','sutartys','sutartys','sutartys');
 	
 //mysqli_set_charset($this->link,"utf8");
 $this->link->set_charset("utf8");

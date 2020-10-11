@@ -24,13 +24,8 @@ require_once('./header.php');
 require_once('./definitions.php');
 
 require_once('./database.php');
-$mysqli = array(
-	'hostname' => mysqli_HOSTNAME,
-	'database' => mysqli_DATABASE,
-	'username' => mysqli_USERNAME,
-	'password' => mysqli_PASSWORD
-	);
-$database = new Database($mysqli, $language);
+
+$database = new Database();
 if ($database->link == false)
 {
 	 require_once('./error.php');
