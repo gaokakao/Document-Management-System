@@ -1,4 +1,4 @@
-<?
+<?php
 /**
 * Darbas su MySQL duomenu baze
 *
